@@ -1,0 +1,92 @@
+[
+  {
+    "_id": 1,
+    "name": "Fan-Motor-Evaporator",
+    "image": "https://i.ibb.co/J7jvSrz/Fan-Motor-Evaporator.png",
+    "description": "",
+    "quantity": 200,
+    "price": 250,
+    "min_order": 10
+  },
+  {
+    "_id": 2,
+    "name": "Fan-Motor-Evaporator",
+    "image": "https://i.ibb.co/J7jvSrz/Fan-Motor-Evaporator.png",
+    "description": "",
+    "quantity": 200,
+    "price": 250,
+    "min_order": 10
+  },
+  {
+    "_id": 3,
+    "name": "Fan-Motor-Evaporator",
+    "image": "https://i.ibb.co/J7jvSrz/Fan-Motor-Evaporator.png",
+    "description": "",
+    "quantity": 200,
+    "price": 250,
+    "min_order": 10
+  },
+  {
+    "_id": 4,
+    "name": "Fan-Motor-Evaporator",
+    "image": "https://i.ibb.co/J7jvSrz/Fan-Motor-Evaporator.png",
+    "description": "",
+    "quantity": 200,
+    "price": 250,
+    "min_order": 10
+  },
+  {
+    "_id": 5,
+    "name": "Fan-Motor-Evaporator",
+    "image": "https://i.ibb.co/J7jvSrz/Fan-Motor-Evaporator.png",
+    "description": "",
+    "quantity": 200,
+    "price": 250,
+    "min_order": 10
+  },
+  {
+    "_id": 6,
+    "name": "Fan-Motor-Evaporator",
+    "image": "https://i.ibb.co/J7jvSrz/Fan-Motor-Evaporator.png",
+    "description": "",
+    "quantity": 200,
+    "price": 250,
+    "min_order": 10
+  },
+  {
+    "_id": 7,
+    "name": "Fan-Motor-Evaporator",
+    "image": "https://i.ibb.co/J7jvSrz/Fan-Motor-Evaporator.png",
+    "description": "",
+    "quantity": 200,
+    "price": 250,
+    "min_order": 10
+  },
+  {
+    "_id": 8,
+    "name": "Fan-Motor-Evaporator",
+    "image": "https://i.ibb.co/J7jvSrz/Fan-Motor-Evaporator.png",
+    "description": "",
+    "quantity": 200,
+    "price": 250,
+    "min_order": 10
+  },
+  {
+    "_id": 9,
+    "name": "Fan-Motor-Evaporator",
+    "image": "https://i.ibb.co/J7jvSrz/Fan-Motor-Evaporator.png",
+    "description": "",
+    "quantity": 200,
+    "price": 250,
+    "min_order": 10
+  },
+  {
+    "_id": 10,
+    "name": "Fan-Motor-Evaporator",
+    "image": "https://i.ibb.co/J7jvSrz/Fan-Motor-Evaporator.png",
+    "description": "",
+    "quantity": 200,
+    "price": 250,
+    "min_order": 10
+  }
+]
