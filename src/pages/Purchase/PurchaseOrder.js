@@ -12,6 +12,7 @@ const PurchaseOrder = ({ product }) => {
 
     const order = {
       product: product.name,
+      price: product.price,
       customer: user.email,
       customerName: user.displayName,
       phone: event.target.phone.value,
@@ -38,7 +39,7 @@ const PurchaseOrder = ({ product }) => {
     <div className="hero min-h-screen">
       <div className="card flex-shrink-0 w-full lg:max-w-lg shadow-2xl bg-base-100">
         <div className="card-body">
-          <h2>Order for: {product.name}</h2>
+          <h2 className="text-2xl">Order for: {product.name}</h2>
           <form onSubmit={handleOrder}>
             <div className="form-control mb-2">
               <input
