@@ -1,92 +1,74 @@
 [
   {
-    "_id": 1,
     "name": "Fan-Motor-Evaporator",
     "image": "https://i.ibb.co/J7jvSrz/Fan-Motor-Evaporator.png",
-    "description": "",
-    "quantity": 200,
-    "price": 250,
+    "description": "This 115-volt 60Hz evaporator fan motor is located in the back of the freezer and circulates air over the refrigerator coils. These coils will convert the heat into cool air, which is then circulated. If the motor has failed, the freezer/refrigerator will become too warm because the fan motor is not circulating the cool air from the freezer into the refrigerator.",
+    "quantity": 100,
+    "price": 250.7,
+    "min_order": 5
+  },
+  {
+    "name": "Heater-Evaporator-Drain-Tube",
+    "image": "https://i.ibb.co/c60KD8j/Heater-Evaporator-Drain-Tube.png",
+    "description": "801805, Drain Tube Heater 115 Volt, For over 65 years, True Refrigeration has been an industry leader in commercial refrigeration and has maintained high standards.",
+    "quantity": 130,
+    "price": 200.05,
     "min_order": 10
   },
   {
-    "_id": 2,
-    "name": "Fan-Motor-Evaporator",
-    "image": "https://i.ibb.co/J7jvSrz/Fan-Motor-Evaporator.png",
-    "description": "",
+    "name": "Motor-Condenser-and-Evaporator-SP",
+    "image": "https://i.ibb.co/Z2SdywB/Motor-Condenser-and-Evaporator-SP.png",
+    "description": "MOTOR, SP-B9HS16 115V 60HZ 9W, 1550 RPM 9 WATT. .07 AMPS. 1550 RPM. TURNS CLOCKWISE. INCLUDES SILENCER, NUT AND CORD HAS RING TERMINALS (FROM SUPPLIER) 4)830662 SCREWS, 22",
     "quantity": 200,
-    "price": 250,
+    "price": 190.08,
+    "min_order": 7
+  },
+  {
+    "name": "Temperature-Control",
+    "image": "https://i.ibb.co/ryjWbsp/Temperature-Control.png",
+    "description": "The True 800366 temperature control manufactured by Danfoss (077B6806) allows for easy and accurate adjustment of your True refrigerator, cooler, or prep table. Because maintaining an exact temperature is such a significant part of preserving products, it is necessary to have an accurate temperature control. This small part can have a major impact on your business when it breaks, and we strive to get it to you as fast as possible.",
+    "quantity": 120,
+    "price": 210.7,
+    "min_order": 5
+  },
+  {
+    "name": "Compressor",
+    "image": "https://i.ibb.co/2WmbyvT/Compressor.png",
+    "description": "Compressed air is a vital source of energy for applications such as general manufacturing, cabinet and trim shops, auto body and tire shops, and commercial laundries.To meet varying air quality requirements, HP DMC responds to your needs by developing a total compressed air package.",
+    "quantity": 170,
+    "price": 205.09,
+    "min_order": 5
+  },
+  {
+    "name": "Temperature-Control-with-Knob",
+    "image": "https://i.ibb.co/TB0txfR/Temperature-Control-with-Knob.png",
+    "description": "Direct replacement - this HV AC heater control knob is designed to match the fit and function of the original control knob on specified vehicles.Restores functionality - this knob is made to fully restore appearance and functionality after the original part fails. Durable construction - this part is made from quality materials to ensure reliable performance and long service life.",
+    "quantity": 95,
+    "price": 180.0,
     "min_order": 10
   },
   {
-    "_id": 3,
     "name": "Fan-Motor-Evaporator",
     "image": "https://i.ibb.co/J7jvSrz/Fan-Motor-Evaporator.png",
-    "description": "",
-    "quantity": 200,
-    "price": 250,
+    "description": "This 115-volt 60Hz evaporator fan motor is located in the back of the freezer and circulates air over the refrigerator coils. These coils will convert the heat into cool air, which is then circulated. If the motor has failed, the freezer/refrigerator will become too warm because the fan motor is not circulating the cool air from the freezer into the refrigerator.",
+    "quantity": 160,
+    "price": 150.44,
     "min_order": 10
   },
   {
-    "_id": 4,
     "name": "Fan-Motor-Evaporator",
     "image": "https://i.ibb.co/J7jvSrz/Fan-Motor-Evaporator.png",
-    "description": "",
+    "description": "This 115-volt 60Hz evaporator fan motor is located in the back of the freezer and circulates air over the refrigerator coils. These coils will convert the heat into cool air, which is then circulated. If the motor has failed, the freezer/refrigerator will become too warm because the fan motor is not circulating the cool air from the freezer into the refrigerator.",
     "quantity": 200,
-    "price": 250,
+    "price": 250.0,
     "min_order": 10
   },
   {
-    "_id": 5,
     "name": "Fan-Motor-Evaporator",
     "image": "https://i.ibb.co/J7jvSrz/Fan-Motor-Evaporator.png",
-    "description": "",
+    "description": "This 115-volt 60Hz evaporator fan motor is located in the back of the freezer and circulates air over the refrigerator coils. These coils will convert the heat into cool air, which is then circulated. If the motor has failed, the freezer/refrigerator will become too warm because the fan motor is not circulating the cool air from the freezer into the refrigerator.",
     "quantity": 200,
-    "price": 250,
-    "min_order": 10
-  },
-  {
-    "_id": 6,
-    "name": "Fan-Motor-Evaporator",
-    "image": "https://i.ibb.co/J7jvSrz/Fan-Motor-Evaporator.png",
-    "description": "",
-    "quantity": 200,
-    "price": 250,
-    "min_order": 10
-  },
-  {
-    "_id": 7,
-    "name": "Fan-Motor-Evaporator",
-    "image": "https://i.ibb.co/J7jvSrz/Fan-Motor-Evaporator.png",
-    "description": "",
-    "quantity": 200,
-    "price": 250,
-    "min_order": 10
-  },
-  {
-    "_id": 8,
-    "name": "Fan-Motor-Evaporator",
-    "image": "https://i.ibb.co/J7jvSrz/Fan-Motor-Evaporator.png",
-    "description": "",
-    "quantity": 200,
-    "price": 250,
-    "min_order": 10
-  },
-  {
-    "_id": 9,
-    "name": "Fan-Motor-Evaporator",
-    "image": "https://i.ibb.co/J7jvSrz/Fan-Motor-Evaporator.png",
-    "description": "",
-    "quantity": 200,
-    "price": 250,
-    "min_order": 10
-  },
-  {
-    "_id": 10,
-    "name": "Fan-Motor-Evaporator",
-    "image": "https://i.ibb.co/J7jvSrz/Fan-Motor-Evaporator.png",
-    "description": "",
-    "quantity": 200,
-    "price": 250,
+    "price": 250.0,
     "min_order": 10
   }
 ]

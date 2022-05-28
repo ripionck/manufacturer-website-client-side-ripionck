@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import CustomButton from "../Shared/CustomButton";
 
 const Product = ({ product }) => {
-  const { _id, name, image, quantity, min_order, price } = product;
+  const { _id, name, image, quantity, min_order, price, description } = product;
   return (
     <div className="card lg:max-w-lg bg-base-100 shadow-xl">
       <figure className="px-10 pt-10">
@@ -11,8 +11,8 @@ const Product = ({ product }) => {
       </figure>
       <div className="card-body items-center text-center">
         <h2 className="card-title">{name}</h2>
-        <p>If a dog chews shoes whose shoes does he choose?</p>
-        <p>Available: {quantity}</p>
+        <p>Description: {description}</p>
+        <p>Quantity Available: {quantity}</p>
         <p>Minimum Orders: {min_order}</p>
         <p>Price :${price}</p>
         <Link to={`purchase/${_id}`}>

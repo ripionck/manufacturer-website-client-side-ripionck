@@ -2,14 +2,17 @@ import { Route, Routes } from "react-router";
 import "./App.css";
 import Login from "./pages/Access/Login";
 import SignUp from "./pages/Access/SignUp";
-import AddReview from "./pages/Dashboard/AddReview";
-import Dashboard from "./pages/Dashboard/Dashboard";
-import MyOrders from "./pages/Dashboard/MyOrders";
-import MyProfile from "./pages/Dashboard/MyProfile";
+import Dashboard from "./Dashboard/Dashboard";
 import Home from "./pages/Home/Home";
 import Purchase from "./pages/Purchase/Purchase";
 import Footer from "./pages/Shared/Footer";
 import Navbar from "./pages/Shared/Navbar";
+import NotFound from "./pages/Shared/NotFound";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import MyOrders from "./Dashboard/MyOrders";
+import AddReview from "./Dashboard/AddReview";
+import MyProfile from "./Dashboard/MyProfile";
 
 function App() {
   return (
@@ -26,8 +29,10 @@ function App() {
           <Route path="review" element={<AddReview></AddReview>}></Route>
           <Route path="myProfile" element={<MyProfile></MyProfile>}></Route>
         </Route>
+        <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
+      <ToastContainer></ToastContainer>
     </div>
   );
 }
