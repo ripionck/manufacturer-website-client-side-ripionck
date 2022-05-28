@@ -9,7 +9,7 @@ const Purchase = () => {
   console.log(product);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/product/${id}`)
+    fetch(`https://polar-ravine-55815.herokuapp.com/product/${id}`)
       .then((res) => res.json())
       .then((data) => setProduct(data));
   }, [id]);

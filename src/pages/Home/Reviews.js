@@ -8,22 +8,22 @@ const Reviews = () => {
   const reviews = [
     {
       _id: 1,
-      title: "100+ tools",
+      title: "100+ Tools",
       img: tools,
     },
     {
       _id: 2,
-      title: "33K+ reviews",
+      title: "33K+ Reviews",
       img: review,
     },
     {
       _id: 3,
-      title: "100+ customers",
+      title: "100+ Customers",
       img: customers,
     },
     {
       _id: 3,
-      title: "120+ annual revenue",
+      title: "120+ Annual Revenue",
       img: revenue,
     },
   ];

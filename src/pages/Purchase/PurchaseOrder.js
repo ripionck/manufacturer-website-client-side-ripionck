@@ -20,7 +20,7 @@ const PurchaseOrder = ({ product }) => {
     };
     event.target.reset();
 
-    fetch("http://localhost:5000/order", {
+    fetch("https://polar-ravine-55815.herokuapp.com/order", {
       method: "POST",
       headers: {
         "content-type": "application/json",

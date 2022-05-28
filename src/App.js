@@ -17,6 +17,7 @@ import Users from "./Dashboard/Users";
 import Payment from "./Dashboard/Payment";
 import RequireAuth from "./pages/Access/RequireAuth";
 import Blogs from "./pages/Home/Blogs";
+import MyPortfolio from "./pages/Home/MyPortfolio";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="login" element={<Login></Login>}></Route>
         <Route path="signup" element={<SignUp></SignUp>}></Route>
         <Route path="blogs" element={<Blogs></Blogs>}></Route>
+        <Route path="myPortfolio" element={<MyPortfolio></MyPortfolio>}></Route>
         <Route
           path="purchase/:id"
           element={
