@@ -7,11 +7,16 @@ const Banner = () => {
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img src={banner} className="max-w-md" alt="" />
         <div>
-          <h1 className="text-5xl font-bold">Box Office News!</h1>
+          <h1 className="text-5xl font-bold">
+            Internal Parts of the Domestic Refrigerator
+          </h1>
           <p className="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+            The domestic refrigerator is one found in almost all homes for
+            storing food, vegetables, fruits, beverages, and much more. This
+            article describes the important parts of a refrigerator and also
+            their working. In many ways, the refrigerator works in a similar
+            manner to how a home air conditioning unit works. The refrigerator
+            can be categorized into two categories: internal and external.
           </p>
           <button className="btn btn-primary">Get Started</button>
         </div>
