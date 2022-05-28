@@ -1,4 +1,5 @@
 import React from "react";
+import img from "../../images/SD=7955.jpg";
 
 const MyPortfolio = () => {
   return (
@@ -28,10 +29,10 @@ const MyPortfolio = () => {
               </p>
               <h3>
                 <a
-                  href="https://seinfeldquotes.com"
+                  href="https://www.linkedin.com"
                   class="text-blue-600 visited:text-purple-600 ..."
                 >
-                  Inspiration
+                  Link
                 </a>
               </h3>
               <h3 className="font-bold mt-4">Soft Skills</h3>
@@ -61,17 +62,16 @@ const MyPortfolio = () => {
           <div class="card w-96 bg-base-100 shadow-xl">
             <figure class="px-10 pt-10">
               <div class="avatar">
-                <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                  <img
-                    src="https://api.lorem.space/image/face?hash=3174"
-                    alt=""
-                  />
+                <div class="w-28 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                  <img src={img} alt="" />
                 </div>
               </div>
             </figure>
             <div class="card-body items-center text-center">
               <h2 class="card-title">RIPION CHAKMA</h2>
               <p>Member of Programming Hero</p>
+              <p>B.A.(Hons.)</p>
+              <p>Dhaka University</p>
             </div>
           </div>
         </div>
