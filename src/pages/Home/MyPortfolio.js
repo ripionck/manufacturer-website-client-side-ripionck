@@ -69,9 +69,11 @@ const MyPortfolio = () => {
             </figure>
             <div class="card-body items-center text-center">
               <h2 class="card-title">RIPION CHAKMA</h2>
-              <p>Member of Programming Hero</p>
+              <p>
+                Member of <i>Programming Hero</i>
+              </p>
               <p>B.A.(Hons.)</p>
-              <p>Dhaka University</p>
+              <p className="font-bold">Dhaka University</p>
             </div>
           </div>
         </div>
