@@ -55,7 +55,7 @@ const MyProfile = () => {
               <input
                 type="link"
                 name="phone"
-                placeholder="Phone Number"
+                placeholder="LinkedIn Link"
                 className="input input-bordered"
               />
             </div>

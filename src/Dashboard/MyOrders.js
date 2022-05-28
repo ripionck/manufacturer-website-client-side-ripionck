@@ -9,31 +9,20 @@ const MyOrders = () => {
 
   useEffect(() => {
     if (user) {
-      fetch(`http://localhost:5000/order?customer=${user.email}`)
+      fetch(`http://localhost:5000/order?customer=${user.email}`, {
+        method: "GET",
+        headers: {
+          authorization: `Bearer ${localStorage.getItem("accessToken")}`,
+        },
+      })
         .then((res) => res.json())
         .then((data) => setOrders(data));
     }
   }, [user]);
 
-  /*  const handleCancel = (email) => {
-    const proceed = window.confirm("Are you sure to delete?");
-    if (proceed) {
-      const url = `http://localhost:5000/order/${email}`;
-      fetch(url, {
-        method: "DELETE",
-      })
-        .then((res) => res.json())
-        .then((data) => {
-          console.log(data);
-          //const remaining = orders.filter(order => order._id !== id);
-        });
-    }
-  }; */
-
   return (
     <div class="overflow-x-auto">
       <table class="table w-full">
-        {/* <!-- head --> */}
         <thead>
           <tr>
             <th></th>
@@ -54,10 +43,10 @@ const MyOrders = () => {
               <td>{o.quantity}</td>
               <td>
                 <span>
-                  <button class="btn btn-sm hover:bg-green-500">Payment</button>
+                  <button class="btn btn-xs hover:bg-green-500">Payment</button>
                 </span>
                 <span>
-                  <button class="btn btn-sm ml-2 hover:bg-red-500">
+                  <button class="btn btn-xs ml-2 hover:bg-red-500">
                     Cancel
                   </button>
                 </span>
