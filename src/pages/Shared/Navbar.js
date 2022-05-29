@@ -15,17 +15,17 @@ const Navbar = () => {
   const menuItems = (
     <>
       <li>
-        <Link to="/">Home</Link>
+        <Link to="/">HOME</Link>
       </li>
       <li>
-        <Link to="blogs">Blogs</Link>
+        <Link to="blogs">BLOGS</Link>
       </li>
       <li>
-        <Link to="myPortfolio">My Portfolio</Link>
+        <Link to="myPortfolio">MY PORTFOLIO</Link>
       </li>
       {user && (
         <li>
-          <Link to="dashboard">Dashboard</Link>
+          <Link to="dashboard">DASHBOARD</Link>
         </li>
       )}
       <li>

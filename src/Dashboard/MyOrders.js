@@ -25,8 +25,9 @@ const MyOrders = () => {
   }, [user]);
 
   return (
-    <div class="overflow-x-auto">
-      <table class="table w-full">
+    <div className="overflow-x-auto">
+      <h2>Orders: {orders.length}</h2>
+      <table className="table w-full">
         <thead>
           <tr>
             <th></th>
@@ -39,7 +40,7 @@ const MyOrders = () => {
         </thead>
         <tbody>
           {orders.map((o, index) => (
-            <tr>
+            <tr key={o._id}>
               <th>{index + 1}</th>
               <td>{o.customerName}</td>
               <td>{o.customer}</td>
@@ -48,13 +49,21 @@ const MyOrders = () => {
               <td>
                 {o.price && !o.paid && (
                   <Link to={`/dashboard/payment/${o._id}`}>
-                    <button class="btn btn-sm hover:text-green-500">PAY</button>
+                    <button className="btn btn-sm hover:text-green-500">
+                      PAY
+                    </button>
                   </Link>
                 )}
                 {o.price && o.paid && (
-                  <span className="text-success">
-                    <p class="text-success">PAID</p>
-                  </span>
+                  <div>
+                    <p className="text-success">
+                      <span className="text-success">PAID</span>
+                    </p>
+                    <p>
+                      Transaction id:
+                      <span className="text-success">{o.transactionId}</span>
+                    </p>
+                  </div>
                 )}
               </td>
             </tr>

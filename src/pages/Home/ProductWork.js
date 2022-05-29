@@ -3,12 +3,12 @@ import img from "../../images/part.png";
 
 const ProductWork = () => {
   return (
-    <div class="hero min-h-screen ">
-      <div class="hero-content flex-col lg:flex-row">
-        <img src={img} class="max-w-sm rounded-lg shadow-2xl" alt="" />
+    <div className="hero min-h-screen ">
+      <div className="hero-content flex-col lg:flex-row">
+        <img src={img} className="max-w-sm rounded-lg shadow-2xl" alt="" />
         <div>
-          <h1 class="text-3xl font-bold">How Refrigerators Work</h1>
-          <p class="py-6">
+          <h1 className="text-3xl font-bold">How Refrigerators Work</h1>
+          <p className="py-6">
             If you pour a little rubbing alcohol on your skin, it'll feel cold
             -- really cold. It isn't refrigerated, so how does this happen?
             Well, alcohol evaporates at room temperature the way water
