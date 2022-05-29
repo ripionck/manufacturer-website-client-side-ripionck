@@ -1,5 +1,7 @@
 import React from "react";
 
+const review = [{}, {}, {}];
+
 const Review = () => {
   return (
     <div className="card lg:max-w-lg bg-base-100 shadow-xl mt-12">

@@ -29,23 +29,28 @@ const Reviews = () => {
   ];
 
   return (
-    <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-8">
-      {reviews.map((review) => (
-        <div
-          key={review._id}
-          className="card lg:max-w-lg bg-base-100 shadow-xl"
-        >
-          <div className="card-body">
-            <img
-              className="flex justify-center"
-              style={{ width: "80px" }}
-              src={review.img}
-              alt=""
-            />
-            <h2 className="card-title">{review.title}</h2>
+    <div>
+      <h2 className="text-center text-3xl font-bold mb-8 uppercase">
+        Business Summary
+      </h2>
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-8">
+        {reviews.map((review) => (
+          <div
+            key={review._id}
+            className="card lg:max-w-lg bg-base-100 shadow-xl"
+          >
+            <div className="card-body">
+              <img
+                className="flex justify-center"
+                style={{ width: "80px" }}
+                src={review.img}
+                alt=""
+              />
+              <h2 className="card-title">{review.title}</h2>
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };

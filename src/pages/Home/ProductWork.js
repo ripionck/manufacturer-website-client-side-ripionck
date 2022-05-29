@@ -6,8 +6,10 @@ const ProductWork = () => {
     <div className="hero min-h-screen ">
       <div className="hero-content flex-col lg:flex-row">
         <img src={img} className="max-w-sm rounded-lg shadow-2xl" alt="" />
-        <div>
-          <h1 className="text-3xl font-bold">How Refrigerators Work</h1>
+        <div className="ml-8">
+          <h1 className="text-3xl font-bold uppercase">
+            How Refrigerators Work
+          </h1>
           <p className="py-6">
             If you pour a little rubbing alcohol on your skin, it'll feel cold
             -- really cold. It isn't refrigerated, so how does this happen?
