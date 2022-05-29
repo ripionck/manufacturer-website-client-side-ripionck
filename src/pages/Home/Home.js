@@ -1,6 +1,5 @@
 import React from "react";
 import Banner from "./Banner";
-import Carousel from "./Carousel";
 import Products from "./Products";
 import ProductWork from "./ProductWork";
 import Reviews from "./Reviews";
@@ -14,7 +13,6 @@ const Home = () => {
       <ProductWork></ProductWork>
       <Reviews></Reviews>
       <Summary></Summary>
-      <Carousel></Carousel>
     </div>
   );
 };
