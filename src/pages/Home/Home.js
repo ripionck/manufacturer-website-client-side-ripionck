@@ -3,7 +3,7 @@ import Banner from "./Banner";
 import Products from "./Products";
 import ProductWork from "./ProductWork";
 import Reviews from "./Reviews";
-import Summary from "./Summary";
+import Carousel from "./Carousel";
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
       <Products></Products>
       <ProductWork></ProductWork>
       <Reviews></Reviews>
-      <Summary></Summary>
+      <Carousel></Carousel>
     </div>
   );
 };
