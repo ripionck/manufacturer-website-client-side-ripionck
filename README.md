@@ -7,6 +7,6 @@
 
 # Technologies used: 
 React JS, Tailwind, Daisy UI, Firebase Authentication, React Router, React
-Hook Form, React Query, JWT, Node JS, Express JS and MongoDB.
+Hook Form, React Query.
 
 
